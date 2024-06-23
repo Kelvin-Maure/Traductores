@@ -1,0 +1,450 @@
+body{
+    /* background: radial-gradient(#7c7c7c, #9499ce); */
+    background: linear-gradient(90deg, rgb(124, 124, 124) 0%, rgb(151, 151, 160) 50%, rgb(119, 121, 121) 100%);
+    color: #fff;
+}
+
+/* Clase que edita los contenedores que tienen los input del formulario */
+.formulario {
+   
+    border: 3px solid black;
+    margin: auto auto;
+    padding: 20px;
+    height: 510px;
+    width: 200px;
+    font-size: 19px;
+    
+}
+
+/* clase para editar los input */
+input{
+
+    margin: 10px 0px;
+    display: block;
+    width: 175px;
+}
+
+/* clase para editar los label */
+label{
+
+    
+    display: block;
+    width: 250px;
+}
+
+/* clase que edita el boton del formulario */
+.for button{
+    margin-left:  510px;
+    margin-top: 8px;
+    width: 150px;
+    background-color: black;
+    color: aliceblue;
+    padding: 5px;
+    font-size: 20px;
+}
+
+/* Contenedor que posee las columnas que estructuran el formulario */
+.contenedorf{
+    display: block;
+    
+    padding:12px;
+    border: 4px solid #000;
+    margin: 0px 3px;
+    width:560px;
+    align-items: center ;
+    height: 560px;
+    
+}
+
+/* contenedor donde se guardaran cada uno de los empleados registrados */
+.contenedora{
+    text-align: center;
+    padding: 12px;
+    border: 2px solid #000;
+    margin: 20px ;
+    width:1185px;
+    align-items: center ;
+    color: #000;
+    background-color: #ebe8e8;
+    font-size: 18px;
+    max-height: 700px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    max-height: 700px;
+    display: none;
+    
+}
+
+/* contenedor donde se guardaran cada uno de los empleados registrados */
+.contenedore{
+    text-align: center;
+    padding: 12px;
+    border: 2px solid #000;
+    margin: 20px ;
+    width:1185px;
+    align-items: center ;
+    color: #000;
+    background-color: #ebe8e8;
+    font-size: 18px;
+    max-height: 700px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    max-height: 700px;
+    display: none;
+}
+
+.buscar{
+
+    margin: 10px 0px;
+    display: block;
+    width: 250px;
+    height: 35px;
+    margin: 0px 890px;
+}
+
+
+.botones{
+
+    display: grid;
+    grid-template-columns: 185px 185px auto;
+    margin: 50px auto;
+   
+    width: 500px;
+}
+
+
+/* Contenedor que tiene las columnas para organizar los datos de los empleados */
+.contenedord{
+      display: grid;
+    grid-template-columns:120px 130px 105px 115px 230px 90px 120px 120px 120px ;
+    text-align: center;
+    padding: 6px;
+    border: 2px solid #000;
+    margin: 20px 0px ;
+    width:1158px;
+    align-items: center ;
+    color: #000;
+    background-color: #ebe8e8;
+    font-size: 18px;
+    
+}
+
+/* Contenedor que contiene los datos registrados de los empleados */
+.datos{
+    display: grid;
+    grid-template-columns:120px 130px 105px 115px 230px 90px 120px 120px 120px;
+    text-align: center;
+    padding-top: 4px;
+    border-top: 2px solid #000;
+    margin-top: 10px ;
+    width:1158px;
+    align-items: center ;
+    word-wrap: break-word;
+    
+}
+
+/* clase que contiene los botones de las funciones de cada empleado */
+.options{
+    display: flex;
+    justify-content: start;
+    background-color: transparent;
+       
+}
+
+/* clase que contiene la imagen de editar de cada empleado */
+.edit{
+    
+    margin: 4px auto;
+    width: 39px;
+    height: 33px;
+    
+}
+
+/* clase que contiene la imagen de mostrar mas de cada empleado */
+.mas{
+    
+    margin: 3px 4px;
+    width: 39px;
+    height: 33px;
+    background: transparent;
+    
+    
+}
+/* clase que contiene la imagen de eliminar de cada empleado */
+.del{
+    
+    margin: 3px 1px ;
+    width: 39px;
+    height: 33px;
+}
+
+
+/* contenedor que posee fecha de nacimiento cargo sueldo y prof del empleado */
+.dt{
+    width: 1060px;
+    border: 2px solid black ;
+    margin: 10px 30px;
+    padding: 8px;
+    text-align: center;
+    word-wrap: break-word;
+    height: 100px;
+    
+}
+
+/* tamaño de imagen */
+img{
+    width: 35px;
+    height: 30px;
+    
+}
+
+/* contenedor que posee los datos de la habitacion del empleado */
+.habi{
+    width: 500px;
+    border: 2px solid black ;
+    margin: 10px 14px;
+    padding: 8px;
+    text-align: left;
+    word-wrap: break-word;
+    display: inline-block;
+    height: 380px;
+}
+/* contenedor que posee los datos de la oficina del empleado */
+.ofi{
+    width: 500px;
+    border: 2px solid black ;
+    margin:  10px 0px;
+    height: 380px;
+    padding: 8px;
+    text-align: left;
+    word-wrap: break-word;
+    display: inline-block;
+}
+
+/* contenedor que posee las fechas del empleado */
+.fechas{
+    width: 1030px; 
+    margin: 10px auto;
+    padding: 8px;
+    text-align: left;
+    word-wrap: break-word;
+    display: grid;
+    grid-template-columns:  100px 100px 100px;
+}
+
+/* fecha del dia */
+.fe{
+    width: 200px;
+    border: 2px solid black ;
+    margin: auto auto;
+    padding: 8px;
+    text-align: left;
+    word-wrap: break-word;
+    display: inline-block;
+    
+}
+
+/* fecha de egreso */
+.egre{
+    width: 220px;
+    border: 2px solid black ;
+    margin: auto 130px;
+    padding: 8px;
+    text-align: left;
+    word-wrap: break-word;
+    display: inline-block;
+    
+}
+
+/* motivo de egreso */
+.mot{
+    width: 550%;
+    border: 2px solid black ;
+    margin: auto 275px;
+    padding: 8px;
+    text-align: left;
+    word-wrap: break-word;
+    display: inline-block;
+    
+}
+
+/* contenedor que posee los datos extra del empleado */
+.less{
+    width: 1150px;
+    border: 2px solid black;
+    margin: auto auto;
+    display: none;
+    padding: 10px;
+    background-color:rgb(168, 168, 168);
+    font-size: 18px;
+    color: black;
+    
+}
+
+/* contenedor que posee las fechas y motivo de despido del empleado */
+.rh{
+    width: 1060px;
+    border: 2px solid black ;
+    margin: 0px 30px;
+    padding: 8px;
+    text-align: center;
+    word-wrap: break-word;
+    display: inline-block;   
+    
+}
+
+/* clase para ubicar el boton de la equis */
+.cerrar{
+    display: inline;
+    margin-top: 0px;
+    margin-left: 1117px;
+    width: 35px;
+    height: 28px;
+    border-radius: 30px;
+}
+
+/* contenedor que posee las direcciones tanto de oficina como de habitacion */
+.direc{
+    width: 1120px;
+    
+    margin: 10px 10px;
+    display: grid;
+    grid-template-columns: 575px 580px;
+    padding: 5px;
+    height: 420px;
+    background-color:rgb(170, 170, 170);
+    
+}
+
+/* contenedor que tiene almacenado los datos de fecha de nacimiento cargo sueldo */
+.emp{
+    width: 1030px;
+    align-items: center;
+    margin: 10px 10px;
+    padding: 8px;
+    text-align: center;
+    word-wrap: break-word;
+    display: grid;
+    grid-template-columns:  275px 400px 150px 150px;
+    
+    
+}
+
+/* fecha de nacimiento */
+.fn{
+    width: 255px;
+    border-bottom: 2px solid black;
+    margin: auto auto;
+    padding: 8px;
+    text-align: left;
+    word-wrap: break-word;
+    display: inline-block;  
+}
+
+/* profesion */
+.prf{
+    width: 358px;
+    border-bottom: 2px solid black;
+    margin: auto ;
+    padding: 8px;
+    text-align: left;
+    word-wrap: break-word;
+    display: inline-block;  
+}
+
+
+.cargo{
+    width: 155px;
+    border-bottom: 2px solid black;
+    margin: auto ;
+    padding: 8px;
+    text-align: left;
+    word-wrap: break-word;
+    display: inline-block;  
+}
+
+/* sueldo */
+.sld{
+    width: 140px;
+    border-bottom: 2px solid black;
+    margin: auto 35px;
+    padding: 8px;
+    text-align: left;
+    word-wrap: break-word;
+    display: inline-block;  
+}
+
+/* estilo de el contenedor que posee los datos de la direccion y habitacion */
+.more{
+    width: 1150px;
+    border: 2px solid black;
+    margin: auto auto;
+    display: grid;
+    padding: 10px;
+    background-color:rgb(114, 114, 114);
+    
+}
+
+/* boton de cerrar formulario */
+.cf{
+    position: absolute;
+    
+    margin-left: 140px;
+    width: 35px;
+    height: 28px;
+    border-radius: 30px;
+}
+
+/* boton de cerrar formulario */
+.cl{
+    position: absolute;
+    
+    margin-left: 555px;
+    width: 35px;
+    height: 28px;
+    border-radius: 30px;
+}
+
+
+
+/* boton para abrir el formulario y agregar un nuevo empleado */
+.reg{
+    
+    height: 50px;
+    width: 130px;
+    font-size: 18px;
+    border-radius: 10px;
+    background-color: rgb(9, 206, 255);
+   
+
+}
+
+/* contenedor que posee la equis para cerrar el formulario */
+.fm{
+    padding: 10px;
+    text-align: center;
+    margin: 6px 8px;
+    display: block;
+    height: 30px;
+    font-size: 30px;
+}
+
+/* clase para editar el formulario */
+.for{
+    border: 2px solid black;
+    margin: auto 260px;
+    height: 700px;
+    width: 700px;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+    position: absolute;
+    background-color: rgb(155, 155, 160);
+    display: none;
+}
+
+/* clase para ocultar los nombres que no coinciden cuando se realiza una busqueda */
+.filtro{
+    margin: 3px;
+    display: none;
+}

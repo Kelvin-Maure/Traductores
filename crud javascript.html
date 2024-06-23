@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Sistemas Tres</title>
+ 
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+
+  <div class="botones" >
+  <button class="reg" id="adm">ADMISION</button> <button class="reg" id="af">REGISTRAR</button>  <button class="reg" id="egr">EGRESADOS</button>
+  
+ 
+  </div>
+
+<div class="for" id="form">
+  <div class="fm">Registrar nuevo estudiante <img src="cerrar.png" class="cf" id="cf"></div>
+<div class="contenedorf" >
+  
+  <select id="opc">
+    <option value="admision">Admisión</option>
+    <option value="egresados">Egresados</option>
+  </select>
+
+
+<div class="formulario" >
+  <form action=""  class="form" autocomplete="off">
+    <label >Datos personales</label>
+    <label for="name">Nombre</label>
+    <input type="text" name="name" id="nombre"  required="true">
+
+    <label for="apellido">Apellido</label>
+    <input type="text" name="apellido" id="apellido" required="true">
+
+    <label for="cedula">Cédula</label>
+    <input type="text" name="cedula" id="cedula" required="true">
+
+    <label for="sexo">Teléfono</label>
+    <input type="text" name="tel" id="tel" required="true">
+
+    <label for="civil">Email</label>
+    <input type="text" name="email" id="email" required="true">
+
+    <label for="na">Año de Ingreso</label>
+    <input type="text" name="year" id="year" required="true">
+
+    <label for="nac">Carrera</label>
+    <input type="text" name="carr" id="carr" required="true">
+    
+    <label for="fn">Estado de la solicitud</label>
+    <input type="text" name="est" id="est"  required="true">
+  </form>
+</div>
+
+
+
+</div>
+
+<button type="submit"  id="add" class="agre">Añadir</button>
+
+</div>
+<div class="contenedora" id="ad" >
+  <img src="cerrar.png" class="cl" id="cl">
+  <P style="font-size: 25px;">Admisión</P>
+  <input type="text" id="buscador" placeholder="Buscar" class="buscar">
+<div class="contenedord">
+
+ <div class="nom"> Nombre</div> <div class="ape"> Apellido </div> <div class="ced">Cédula</div> <div class="sex"> Teléfono</div> <div class="civ"> Email </div> <div class="nacio">Año de Ingreso</div> <div class="naci">Carrera</div><div>Estado de la solicitud</div><div>Opciones</div>
+  <div class="info" id="admision"></div>
+</div>
+</div>
+
+<div class="contenedore" id="eg">
+  <img src="cerrar.png" class="cl" id="cle">
+  <P style="font-size: 25px;">Egresados</P>
+  <input type="text" id="buscador" placeholder="Buscar" class="buscar">
+<div class="contenedord"  >
+
+ <div class="nom"> Nombre</div> <div class="ape"> Apellido </div> <div class="ced">Cédula</div> <div class="sex"> Teléfono</div> <div class="civ"> Email </div> <div class="nacio">Año de Egreso</div> <div class="naci">Carrera</div><div>Estado de la solicitud</div><div>Opciones</div>
+  <div class="info" id="egresados"></div>
+</div>
+</div>
+
+<script src="script.js"></script>
+
+
+
+</body>
+</html>
